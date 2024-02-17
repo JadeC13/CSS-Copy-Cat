@@ -1,0 +1,129 @@
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: solid thin;
+    z-index: 1;
+}
+.top-left {
+    width: 30%;
+}
+.top-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style-type: none;
+}
+.top-right i {
+    margin-left: .5em;
+    margin-right: .5em;
+}
+nav img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* I dont understand why this div isnt moving at all */
+.bottom {
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation {
+    position: relative;
+    z-index: 999;
+}
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation li {
+    display: inline-block;
+    padding: 20px;
+}
+.navigation ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.navigation ul ul li {
+    display: inline-block;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.navigation li:hover ul {
+    display: inline-block;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.banner {
+    border-bottom: solid thin;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+main img {
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.ad {
+    border-style: double;
+    padding: 3em;
+    position: absolute;
+    top: 4em;
+    left: 65em;
+}
+.brands {
+    display: flex;
+    justify-content: center;
+}
+.brands-card {
+    text-align: center;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.brands-card h3 {
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.brands-card p {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.brands-card img {
+    width: 20em;
+    height: auto;
+}
+.disclaimer {
+    border-top: solid thin;
+    border-bottom: solid thin;
+}
+.disclaimer p {
+    padding-left: 10em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+footer i {
+    margin: 5px;
+}
+
+
